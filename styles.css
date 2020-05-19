@@ -1,0 +1,23 @@
+.jumbotron{
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background-color: #A7FFEB ;
+  color: #263238;
+}
+ #ab1{
+  height:400px;
+  widht:290px;
+  
+}
+#ab2{
+  height: 400px;
+  widht:300px;
+}
+#ab3{
+  height: 400px;
+  width: 290px;
+}
+
+footer{
+  background: #64FFDA;
+}
