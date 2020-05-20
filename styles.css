@@ -1,6 +1,6 @@
 *{
   font-family:"Fira Mono", "Andale Mono", "Consolas", monospace;
-  font-weight: lighter ;
+  font-weight: normal ;
 }
 
 .row-header{
@@ -37,7 +37,7 @@
  .wallart{
 
   padding-bottom: 10px;
-} 
+}
 
 footer{
   background: #B9F6CA;
