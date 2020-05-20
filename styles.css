@@ -1,3 +1,15 @@
+*{
+  font-family:"Fira Mono", "Andale Mono", "Consolas", monospace;
+  font-weight: lighter ;
+}
+
+.row-header{
+  margin: auto;
+  margin-bottom: 0px;
+  padding-top: 20px;
+
+}
+
 .jumbotron{
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
@@ -7,7 +19,7 @@
  #ab1{
   height:400px;
   widht:290px;
-  
+
 }
 #ab2{
   height: 400px;
@@ -17,7 +29,16 @@
   height: 400px;
   width: 290px;
 }
+#ab4{
+
+  height:250px;
+  width:330px;
+}
+.wallart{
+  margin-left: 7px;
+  padding-bottom: 10px;
+}
 
 footer{
-  background: #64FFDA;
+  background: #B9F6CA;
 }
