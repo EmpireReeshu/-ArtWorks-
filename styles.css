@@ -35,10 +35,15 @@
   width:330px;
 }
  .wallart{
-
   padding-bottom: 10px;
 }
 
 footer{
   background: #B9F6CA;
+}
+body{
+  background-image :url(dadandson.jpg);
+  background-position: center -5%;
+
+
 }

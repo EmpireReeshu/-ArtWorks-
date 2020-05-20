@@ -6,7 +6,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Gallery</title>
 
-    <script data-ad-client="ca-pub-3705518697281714" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- {% if site.google_ad_client %}{% include google_analytics.html %}{% endif %}
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "{{site.google_ad_client}}",
+    enable_page_level_ads: true
+  });
+</script> -->
+
+
+    <!-- <script data-ad-client="ca-pub-3705518697281714" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 
 
     <!-- CSS only -->
@@ -46,7 +57,7 @@
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item "> <a class="nav-link" href="aboutme.html">AboutMe </a> </li>
-            <li class="nav-item " > <a class="nav-link" href="contact.html">Contact</a> </li>
+            <li class="nav-item  " > <a class="nav-link" href="index.html#contact">Contact</a> </li>
           </ul>
         </div
       </div>
@@ -134,17 +145,27 @@
   </div>
 
 
-    <footer>
+
+
+      <div data-spy="scroll" data-target="#Navbar" data-offset="0">
+        <footer id="contact">
           <div class="container ">
             <div class="row justify-content-center">
-              <div class="col-12 col-sm-4">
+              <div class=" offset-2 col-8 mr-auto " style="padding-top:10px; " >
+                <h4 >Contact:</h4>
+                <hr>
+              </div>
+              <div class="col-12 col-sm-4 ">
                 <address>
-                  Residence:<br>
+                  <i class="fa fa-home" ></i> Residence:<br>
                   Ganpati Mandir,Ganpat Colony<br>
                   CHL No:2/Room No:2 Ashelepada<br>
                   Ulhasnagar-421004 Thane.<br>
                   Maharashtra.
                 </address>
+          </div>
+          <div class="row">
+
           </div>
           <div class="col-sm-4  text-center">
             <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/mithilesh.pal.56863"><span><i class="fa fa-facebook"></i>acebook </span></a>
@@ -157,6 +178,9 @@
         </div>
       </div>
     </footer>
+
+  </div>
+
 
 
 
